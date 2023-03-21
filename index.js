@@ -6,6 +6,10 @@ function add (){
 
     side ++
 
+    if(side > 6){
+        side = 1
+    }
+
     if(side === 2){
         img = document.querySelector(".dice").src = "img/side2.svg"
     }
